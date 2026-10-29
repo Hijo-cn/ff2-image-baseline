@@ -1,0 +1,11 @@
+torch>=2.1
+torchvision
+timm>=1.0
+open_clip_torch
+scikit-learn>=1.3
+numpy<2
+pillow
+pandas
+umap-learn
+matplotlib
+tqdm

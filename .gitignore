@@ -1,0 +1,23 @@
+# 数据与权重一律不入库
+*.npz
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+datasets/
+features/
+weights/
+logs/
+preds/
+reports/
+splits/*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
