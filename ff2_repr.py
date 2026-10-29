@@ -27,7 +27,7 @@ from sklearn.preprocessing import normalize
 
 warnings.filterwarnings("ignore")
 
-ROOT = os.environ.get("FF2_ROOT", "/mnt/nfs_share/EC_DATABASE_UGREEN/yanhaiqiao/FF2")
+ROOT = os.environ.get("FF2_ROOT", "")
 FEATDIR = os.path.join(ROOT, "features")
 REPDIR = os.path.join(ROOT, "reports")
 

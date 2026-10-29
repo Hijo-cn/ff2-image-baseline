@@ -32,7 +32,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import StratifiedKFold
 from sklearn.preprocessing import normalize
 
-ROOT = os.environ.get("FF2_ROOT", "/mnt/nfs_share/EC_DATABASE_UGREEN/yanhaiqiao/FF2")
+ROOT = os.environ.get("FF2_ROOT", "")
 FEATDIR = os.path.join(ROOT, "features")
 DATA = os.path.join(ROOT, "datasets", "yanshu_600_4cranium_1teeth_2measurement")
 

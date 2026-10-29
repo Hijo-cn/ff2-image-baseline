@@ -196,18 +196,10 @@ python ff2_hier_eval.py preds/fused_oof.npz
 
 ---
 
-## 7. 复现的基线数值
+## 7. Reproduction numbers
 
-5 折,n = 746:
+This repository contains code only. See the paper or internal records for numbers.
 
-| 配置 | flat | genus | hier_oracle | hier_e2e |
-|---|---|---|---|---|
-| 单视角冻结(DINOv3-L @512) | 84.18 | 94.15 | 88.08 | 84.30 |
-| 5 视角冻结 + 概率平均 | 89.54 | 96.55 | 92.19 | 89.83 |
-| 5 视角微调融合(@512) | 90.21 | 97.18 | 92.76 | 90.75 |
-| 5 视角 × 2 分辨率融合(10 模型) | 90.88 | 97.59 | 92.96 | 91.29 |
-
----
 
 ## 8. 引用
 

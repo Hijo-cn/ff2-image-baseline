@@ -56,7 +56,7 @@ except Exception:
         "convnextl": ("convnext_large.fb_in22k_ft_in1k", 384),
     }
 
-ROOT = os.environ.get("FF2_ROOT", "/mnt/nfs_share/EC_DATABASE_UGREEN/yanhaiqiao/FF2")
+ROOT = os.environ.get("FF2_ROOT", "")
 DATA = os.path.join(ROOT, "datasets", "yanshu_600_4cranium_1teeth_2measurement")
 
 

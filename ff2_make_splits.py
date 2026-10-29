@@ -34,7 +34,7 @@ from collections import Counter, defaultdict
 import numpy as np
 from sklearn.model_selection import StratifiedKFold
 
-ROOT = os.environ.get("FF2_ROOT", "/mnt/nfs_share/EC_DATABASE_UGREEN/yanhaiqiao/FF2")
+ROOT = os.environ.get("FF2_ROOT", "")
 DATA = os.path.join(ROOT, "datasets", "yanshu_600_4cranium_1teeth_2measurement")
 
 

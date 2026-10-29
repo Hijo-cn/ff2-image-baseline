@@ -35,7 +35,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import f1_score
 from sklearn.preprocessing import normalize
 
-ROOT = os.environ.get("FF2_ROOT", "/mnt/nfs_share/EC_DATABASE_UGREEN/yanhaiqiao/FF2")
+ROOT = os.environ.get("FF2_ROOT", "")
 FEATDIR = os.path.join(ROOT, "features")
 
 FILES = {

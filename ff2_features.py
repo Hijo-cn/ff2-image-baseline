@@ -24,7 +24,7 @@ import torch.nn.functional as F
 from PIL import Image
 from torch.utils.data import Dataset, DataLoader
 
-ROOT = os.environ.get("FF2_ROOT", "/mnt/nfs_share/EC_DATABASE_UGREEN/yanhaiqiao/FF2")
+ROOT = os.environ.get("FF2_ROOT", "")
 DATA = os.path.join(ROOT, "datasets", "yanshu_600_4cranium_1teeth_2measurement")
 FEATDIR = os.path.join(ROOT, "features")
 
